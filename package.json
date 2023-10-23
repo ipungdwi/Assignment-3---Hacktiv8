@@ -1,0 +1,24 @@
+{
+  "name": "assigment_3-photo_album",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest --detectOpenHandles",
+    "db:create:test": "NODE_ENV=test npx sequelize db:create",
+    "db:migrate:test": "NODE_ENV=test npx sequelize db:migrate"
+  },
+  "author": "Ipung Dwi Ari Saputra",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.33.0",
+    "sequelize-cli": "^6.6.1"
+  },
+  "devDependencies": {
+    "supertest": "^6.3.3"
+  }
+}
